@@ -1,1 +1,13 @@
 /*Add the styles for your component here.*/
+button {
+  font-size: 25px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: rgb(255, 213, 136);
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+button.removeOne {
+  background-color: rgb(149, 149, 255);
+}

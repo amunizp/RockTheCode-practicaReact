@@ -1,1 +1,16 @@
 /*Add the styles for your component here.*/
+main {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 80svh;
+}
+
+main > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}

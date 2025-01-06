@@ -6,7 +6,12 @@ const BottonSubstract = ({ count, setCount }) => {
     setCount(count - 1)
   }
 
-  return <button onClick={RemoveOne}> Remove +1</button>
+  return (
+    <button onClick={RemoveOne} className='removeOne'>
+      {' '}
+      Remove +1
+    </button>
+  )
 }
 BottonSubstract.propTypes = {
   setCount: PropTypes.func,
